@@ -675,10 +675,10 @@
   dependencies:
     minimatch "^9.0.9"
 
-"@yeoman/types@^1.11.0":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@yeoman/types/-/types-1.11.1.tgz#00e9a3559e697d6f72d30fd6f3d7c782cfc1cbda"
-  integrity sha512-27CI5hHQAHfq8ohYILmLNzClbdzBJzu+ny9AzUVV6naJO0l4/+t+67QDKlwQvt+TW3oE5j74I/Mh4Kn14rsVXA==
+"@yeoman/types@^1.11.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@yeoman/types/-/types-1.13.1.tgz#0d5370de9f7235e9bdb08a55ae915a04e8ac4253"
+  integrity sha512-HNwITXGjzxct9j3cvyHvCKUA/isuvtLHHGtEH5Com1vFOqYMTZZ16Skk+UM7GJDKqhTEJaIhF/xY7O2/ByQ/sA==
 
 abbrev@^4.0.0:
   version "4.0.0"
@@ -3069,15 +3069,15 @@ yargs@^17.7.2:
     yargs-parser "^21.1.1"
 
 yeoman-environment@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-6.1.0.tgz#751cc8348587e48d919a806b7e4c25c025a4b0ee"
-  integrity sha512-QSKMfrSx3js9fxbMDBa+sZG0ctF0NDxcO6VA5BnrWdo6wqhdalT2IUU/ZrNakQLZQ76E3B6b0lXHKEA7ivsWxA==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/yeoman-environment/-/yeoman-environment-6.2.0.tgz#95d7781763f97063e4aebc8172f44addfa6d167c"
+  integrity sha512-n4V0tM8zKKMldJvdqOA54SGcO3Al5N1ISUuDI5QmE5Li5NdH8VJr2wafjaPr+qe/ID1ZjnY99vQNkmF3JVd/qA==
   dependencies:
     "@yeoman/adapter" "^4.0.2"
     "@yeoman/conflicter" "^4.1.0"
     "@yeoman/namespace" "^2.1.0"
     "@yeoman/transform" "^2.1.1"
-    "@yeoman/types" "^1.11.0"
+    "@yeoman/types" "^1.11.1"
     arrify "^3.0.0"
     chalk "^5.6.2"
     commander "^14.0.3"
