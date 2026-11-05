@@ -13,7 +13,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv pip install --system . \
     && python -m pip install --no-cache-dir "wheel>=0.46.2" "setuptools>=75.8.0"
 
-FROM python:3.14-alpine
+FROM python:3.15-alpine
 
 RUN apk add --upgrade --no-cache git \
     && python -m pip install --no-cache-dir "wheel>=0.46.2" "setuptools>=75.8.0"
